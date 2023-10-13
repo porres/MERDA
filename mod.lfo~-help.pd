@@ -1,0 +1,11 @@
+#N canvas 300 23 580 608 12;
+#X obj 92 385 out~;
+#X obj 92 335 *~;
+#X obj 229 54 mod.lfo~;
+#A saved 0 0 0 0 0 0 2 0;
+#X obj 91 284 noise~;
+#X obj 229 380 graph~;
+#X connect 1 0 0 0;
+#X connect 2 0 1 1;
+#X connect 2 0 4 0;
+#X connect 3 0 1 0;
