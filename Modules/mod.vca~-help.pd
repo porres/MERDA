@@ -2,9 +2,9 @@
 #X obj 81 506 out~;
 #X obj 81 86 bl.saw~ 110;
 #X obj 81 141 mod.vca~;
-#A saved 0;
+#A saved 0.413683;
 #X obj 190 99 glide~ 50;
-#X obj 190 75 pulse~ 5;
+#X obj 190 75 pulse~ 1;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
 #X connect 3 0 2 1;
