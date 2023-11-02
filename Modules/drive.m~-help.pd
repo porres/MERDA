@@ -1,0 +1,9 @@
+#N canvas 484 23 328 462 12;
+#X obj 162 270 out~;
+#X obj 95 275 meter~;
+#X obj 95 50 osc~ 440;
+#X obj 95 91 drive.m~;
+#A saved 1;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 3 0 1 0;

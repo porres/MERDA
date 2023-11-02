@@ -1,0 +1,11 @@
+#N canvas 484 23 585 550 12;
+#X obj 57 441 out~;
+#X text 349 408 This is just a wrapper around [filterdelay~] from ELSE \, check it out., f 22;
+#X obj 405 467 filterdelay~;
+#X obj 57 105 player~ bubul.wav 1 1;
+#X obj 345 210 presets.m;
+#A saved -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \;;
+#X obj 57 156 delay.m~;
+#A saved 100 0 100 0 0.5;
+#X connect 3 0 5 0;
+#X connect 5 0 0 0;

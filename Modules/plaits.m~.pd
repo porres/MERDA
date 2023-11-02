@@ -261,6 +261,8 @@
 #X restore 167 240 pd check;
 #X obj 238 75 inlet~;
 #X obj 238 37 initmess 1e+06;
+#X text 405 153 Trigger;
+#X text 523 153 Level;
 #X connect 1 0 10 0;
 #X connect 1 0 7 0;
 #X connect 7 0 14 0;

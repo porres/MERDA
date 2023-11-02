@@ -3,12 +3,12 @@
 #X obj 327 542 out~;
 #X obj 31 156 voices~ 4;
 #X obj 345 141 adsr~ 250 50 0.85 1000;
-#X obj 31 211 mod.vco~;
-#A saved 12 0 0 0 1 1 0 0;
 #X obj 327 492 *~;
+#X obj 31 211 vco.m~;
+#A saved 0 0 0 0 1 0 0 0;
 #X connect 0 0 2 0;
-#X connect 2 0 4 0;
+#X connect 2 0 5 0;
 #X connect 2 1 3 0;
-#X connect 3 0 5 1;
-#X connect 4 0 5 0;
-#X connect 5 0 1 0;
+#X connect 3 0 4 1;
+#X connect 4 0 1 0;
+#X connect 5 0 4 0;

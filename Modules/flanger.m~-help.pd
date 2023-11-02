@@ -1,0 +1,9 @@
+#N canvas 484 23 534 527 12;
+#X obj 42 340 out~;
+#X obj 42 37 bl.saw~ 110;
+#X obj 263 141 presets.m;
+#A saved -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \; -empty- \;;
+#X obj 42 81 flanger.m~;
+#A saved 0.1 0 0 0;
+#X connect 1 0 3 0;
+#X connect 3 0 0 0;
