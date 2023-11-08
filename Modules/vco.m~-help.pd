@@ -1,4 +1,4 @@
-#N canvas 576 42 590 618 12;
+#N canvas 576 42 590 651 12;
 #X obj 31 43 keyboard 17 80 3 3 0 127 empty empty;
 #X obj 327 564 out~;
 #X obj 31 178 voices~ 4;

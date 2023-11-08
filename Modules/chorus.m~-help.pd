@@ -1,4 +1,4 @@
-#N canvas 484 23 534 527 12;
+#N canvas 484 23 464 416 12;
 #X obj 42 306 out~;
 #X obj 42 37 bl.saw~ 110;
 #X obj 353 215 chorus~;

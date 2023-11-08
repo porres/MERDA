@@ -56,7 +56,7 @@
 #N canvas 227 82 302 415 (subpatch) 0;
 #X obj 112 112 cnv 15 90 115 empty empty empty 20 12 0 14 #dbdbdb #373737 0;
 #X obj 125 121 note 62 18 Inter empty 5 54 54 54 0 187 187 187 1 1 DRIVE;
-#X obj 126 155 else/knob 60 1 1000 0 1 \$0-drive \$0-set-drive #000000 #404040 #ffffff 0 0 0 0 1 320 0 0 1;
+#X obj 126 155 else/knob 60 1 1000 1 1 \$0-drive \$0-set-drive #000000 #404040 #ffffff 0 0 0 0 1 320 0 0 1;
 #X coords 0 1 100 -1 92 117 1 111 111;
 #X restore 209 145 graph;
 #X obj 107 321 f2s~;

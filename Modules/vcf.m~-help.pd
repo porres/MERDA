@@ -6,6 +6,8 @@
 #X obj 97 139 bl.saw~ 55;
 #X obj 120 191 vcf.m~;
 #A saved 903.318 17.144 0 0;
+#X text 336 310 for now it's only based on, f 13;
+#X obj 350 362 lowpass~;
 #X connect 2 0 3 0;
 #X connect 3 0 5 1;
 #X connect 4 0 5 0;
