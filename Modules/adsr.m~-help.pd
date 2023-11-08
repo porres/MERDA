@@ -1,4 +1,4 @@
-#N canvas 372 41 730 585 12;
+#N canvas 372 41 718 640 12;
 #X obj 80 275 *~;
 #X obj 80 474 out~;
 #X obj 484 511 adsr~, f 7;
@@ -58,6 +58,8 @@
 #X text 521 425 release time;
 #X obj 211 235 adsr.m~;
 #A saved 10 352.8 0.5 50 0;
+#X obj 340 572 about;
+#X text 280 572 see -->;
 #X connect 0 0 1 0;
 #X connect 4 0 23 0;
 #X connect 5 0 6 0;

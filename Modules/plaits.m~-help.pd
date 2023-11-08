@@ -1,4 +1,4 @@
-#N canvas 422 23 652 652 12;
+#N canvas 422 25 652 652 12;
 #X obj 395 217 plaits~;
 #X text 356 160 This is just a wrapper around [plaits~] from ELSE \, check it out., f 22;
 #N canvas 767 74 534 672 trigger-input 0;
@@ -27,6 +27,8 @@
 #X text 344 480 to do: default all knobs to center position., f 24;
 #X text 336 265 Note that the [plaits~] object itself is still experimental., f 30;
 #X text 200 11 Part of MERDA \, depends on ELSE.;
+#X obj 550 587 about;
+#X text 490 587 see -->;
 #X connect 3 0 5 0;
 #X connect 4 0 3 0;
 #X connect 5 0 8 0;

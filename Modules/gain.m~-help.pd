@@ -4,6 +4,8 @@
 #X obj 79 82 vca.m~;
 #A saved 0.891253;
 #X obj 230 80 osc~ 0.5;
+#X obj 305 317 about;
+#X text 245 317 see -->;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
 #X connect 3 0 2 1;
