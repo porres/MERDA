@@ -420,7 +420,7 @@
 #X text 879 352 <-- Real Time (min:sec / ms);
 #X text 879 379 <-- Player time (min:sec / ms);
 #X text 879 330 <-- Target buffer in min.sec (relates to speed);
-#X obj 352 190 mod.brane~;
+#X obj 352 190 brane.m~;
 #X connect 0 0 7 0;
 #X connect 1 0 7 0;
 #X connect 2 0 7 0;

@@ -9,9 +9,9 @@
 #X obj 180 237 note 50 10 Inter empty 5 55 55 55 0 223 223 223 1 1 Reson;
 #X floatatom 124 212 7 0 0 0 - \$0-cutoff \$0-cutoff-number 0;
 #X floatatom 181 212 7 0 0 0 - \$0-reson \$0-reson-number 0;
-#X text 135 301 Attenuators;
 #X obj 132 261 else/knob 35 -100 100 0 0 \$0-att-cut \$0-att-cut-set #bbbbbb #7c7c7c black 0 0 0 0 1 320 0 0 0;
 #X obj 189 261 else/knob 35 -100 100 0 0 \$0-att-Q \$0-att-Q-set #bbbbbb #7c7c7c black 0 0 0 0 1 320 0 0 0;
+#X text 130 301 Attenuverters;
 #X coords 0 1 100 -1 139 212 1 111 111;
 #X restore 284 176 graph;
 #N canvas 255 81 489 252 set 0;
