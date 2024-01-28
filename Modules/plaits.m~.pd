@@ -1,4 +1,4 @@
-#N canvas 372 36 617 579 12;
+#N canvas 83 41 617 579 12;
 #X declare -path else;
 #N canvas 238 134 524 518 (subpatch) 0;
 #X obj 112 112 cnv 15 240 320 empty empty empty 20 12 0 14 #dbdbdb #373737 0;
@@ -14,7 +14,7 @@
 #X obj 203 171 vradio 18 1 0 8 \$0-radio-1 \$0-set-radio-1 empty 0 -8 0 10 #dfdfdf #00b1a5 #000000 0;
 #X obj 221 171 vradio 18 1 0 8 \$0-radio-2 \$0-set-radio-2 empty 0 -8 0 10 #dfdfdf #dfdfdf #000000 0;
 #X obj 239 171 vradio 18 1 0 8 \$0-radio-3 \$0-set-radio-3 empty 0 -8 0 10 #dfdfdf #dfdfdf #000000 0;
-#X obj 119 324 else/note 217 12 Menlo \$0-label 4 0 0 0 0 223 223 223 1 1 Two operators FM;
+#X obj 119 324 else/note 217 12 Menlo \$0-label 4 0 0 0 0 223 223 223 1 1 Pair of classic waveforms;
 #X obj 173 370 else/knob 50 0 1 0 0.5 \$0-cutoff \$0-set-cutoff #dfdfdf #7c7c7c black 0 0 0 0 1 320 0 0 0;
 #X obj 243 370 else/knob 50 0 1 0 0.5 \$0-decay \$0-set-decay #dfdfdf #7c7c7c black 0 0 0 0 1 320 0 0 0;
 #X text 177 349 Cutoff;
@@ -24,7 +24,7 @@
 #X restore 310 176 graph;
 #X obj 69 75 inlet~;
 #X obj 69 538 outlet~;
-#N canvas 243 43 627 453 preset 1;
+#N canvas 243 43 627 453 preset 0;
 #X obj 125 121 else/sender 1 \\\$0-presets;
 #X msg 125 86 name \$1;
 #X obj 90 211 else/receiver;
@@ -57,14 +57,14 @@
 #X connect 4 0 1 0;
 #X connect 4 0 2 0;
 #X restore 440 107 pd preset;
-#N canvas 158 281 776 386 init-savestate 0;
+#N canvas 560 213 551 359 init-savestate 0;
 #X obj 74 87 savestate;
-#X obj 281 180 declare -path else;
+#X obj 324 178 declare -path else;
 #X obj 49 125 list;
 #X obj 49 43 loadbang;
 #X obj 134 119 else/var \$0-freq \$0-harmonics \$0-timbre \$0-morph \$0-model \$0-cutoff \$0-decay, f 39;
 #X obj 49 222 else/dispatch \$0-set-freq \$0-set-harmonics \$0-set-timbre \$0-set-morph \$0-set-model \$0-set-cutoff \$0-set-decay, f 42;
-#X obj 49 178 else/default 0 0 0 0 0 0 0;
+#X obj 49 178 else/default 0 0.5 0.5 0.5 0 0.5 0.5;
 #X connect 0 0 2 1;
 #X connect 0 1 4 0;
 #X connect 2 0 6 0;

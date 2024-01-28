@@ -5,7 +5,7 @@
 #X obj 136 121 note 104 24 Inter empty 5 54 54 54 0 187 187 187 1 1 PHASER;
 #X obj 121 187 else/knob 41 0.1 5 4 0.1 \$0-rate \$0-set-rate #dfdfdf #bbbbbb #000000 0 0 0 0 1 320 0 0 0.1;
 #X obj 172 187 else/knob 41 5 0.1 -2 5 \$0-q \$0-set-q #dfdfdf #afafaf black 0 0 0 0 1 320 0 0 5;
-#X obj 232 187 else/knob 41 -1 1 0 0 \$0-wet \$0-set-wet #9f9f9f #afafaf black 0 0 0 0 1 320 0 0 0;
+#X obj 232 187 else/knob 41 0 1 0 0 \$0-wet \$0-set-wet #9f9f9f #afafaf black 0 0 0 0 1 320 0 0 0;
 #X text 225 168 Dry/Wet;
 #X text 126 168 Rate;
 #X text 182 168 BW;
