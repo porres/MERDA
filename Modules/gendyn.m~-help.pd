@@ -12,7 +12,7 @@
 #X obj 258 551 *~;
 #X obj 494 347 gendyn~;
 #X text 434 271 This is just a wrapper around [gendyn~] from ELSE \, check it out., f 22;
-#X obj 56 23 keymap;
+#X obj 56 23 keymap -1;
 #X connect 0 0 2 0;
 #X connect 2 0 6 0;
 #X connect 2 1 7 0;
