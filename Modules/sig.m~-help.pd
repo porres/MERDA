@@ -4,8 +4,8 @@
 #X obj 63 52 sig.m~;
 #A saved -0.316666;
 #X obj 268 203 setdsp~;
-#X obj 295 161 about;
 #X text 235 161 see -->;
 #X obj 229 54 declare -path else;
 #X text 223 104 A signal generator.;
+#X obj 295 161 about.MERDA;
 #X connect 1 0 0 0;

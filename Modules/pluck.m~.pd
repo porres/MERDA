@@ -106,6 +106,8 @@
 #X connect 10 0 0 0;
 #X connect 11 0 12 0;
 #X restore 394 150 pd set;
+#X text 51 52 Pitch;
+#X text 162 52 Trigger;
 #X connect 0 0 10 0;
 #X connect 0 0 9 0;
 #X connect 2 0 9 1;

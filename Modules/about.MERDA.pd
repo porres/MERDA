@@ -1,0 +1,13 @@
+#N canvas 225 41 1044 518 12;
+#X declare -path else;
+#X obj 28 30 note 488 40 Menlo empty 4 0 0 0 0 223 223 223 1 1 í ½í²© M.E.R.D.A í ½í²© MODULAR EURORACKS DANCING ALONG version 0.1 alpha;
+#X text 77 261 This is a collection of Pure Data Abstractions that are inspired by Eurorack Modules. They need the ELSE library for Pure Data. ELSE is by Porres. MERDA is also by Porres., f 58;
+#X text 77 313 Eventually \, MERDA will be incorporated into ELSE. This is still a very early draft., f 58;
+#X text 76 368 The absctractions have savestating and you can also use [presets.m] to save different presets., f 58;
+#X text 154 420 This first alpha release needs ELSE 1.0-0 rc101 and Pd 0.54-1 to run., f 35;
+#X obj 640 102 note 272 21 Menlo empty 4 0 0 0 1 223 223 223 1 1 General Operation:;
+#X obj 816 43 declare -path else;
+#X text 582 154 M.E.R.D.A. Modules allow you to set values via knobs and other controls like number boxes and buttons. They all have a state saving mechanism \, which means it loads the values from the last time it was saved in a patch., f 56;
+#X text 580 370 More details in the help files of each modules.;
+#X text 582 220 Note that M.E.R.D.A also has a preset management module.;
+#X text 582 244 Moludes with CV Input usually have attenuverters \, which are knob controls that control the amount of CV \, so it attenuates with values from 0 to 100 \, but it also inverts the signal and attenuates it (by using values from 0 to -100). Usually these CV parameters are also controlled by GUIs like knobs and or number boxes \, so the CV values are actually ADDED to the set value., f 56;

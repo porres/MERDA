@@ -4,10 +4,10 @@
 #X obj 93 59 bl.saw~ 110;
 #X obj 93 98 rm.m~;
 #A saved 0;
-#X obj 345 319 about;
 #X text 285 319 see -->;
 #X obj 276 93 declare -path else;
 #X obj 321 235 rm~;
 #X text 266 156 This is just a wrapper around [rm~] from ELSE \, check it out., f 22;
+#X obj 345 319 about.MERDA;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;

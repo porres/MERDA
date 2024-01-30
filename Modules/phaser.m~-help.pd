@@ -4,10 +4,10 @@
 #X obj 60 65 bl.saw~ 55;
 #X obj 60 106 phaser.m~;
 #A saved 0.104163 3 0.5;
-#X obj 387 320 about;
 #X text 327 320 see -->;
 #X obj 313 95 declare -path else;
 #X obj 358 237 phaser~;
 #X text 303 158 This is just a wrapper around [phaser~] from ELSE \, check it out., f 22;
+#X obj 387 320 about.MERDA;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;

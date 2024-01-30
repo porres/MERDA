@@ -4,10 +4,10 @@
 #X obj 42 37 bl.saw~ 110;
 #X obj 42 81 flanger.m~;
 #A saved 0.1 0 0 0;
-#X obj 361 321 about;
-#X text 301 321 see -->;
+#X text 263 304 see -->;
 #X obj 281 78 declare -path else;
 #X text 271 141 This is just a wrapper around [flanger~] from ELSE \, check it out., f 22;
 #X obj 326 220 flanger~;
+#X obj 323 304 about.MERDA;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;

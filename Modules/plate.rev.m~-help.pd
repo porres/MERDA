@@ -3,12 +3,12 @@
 #X obj 105 405 out~;
 #X obj 66 57 player~ bubul.wav 1 1;
 #X obj 66 93 plate.rev.m~;
-#A saved 50 0.5 0.25 0.75 0.5;
-#X obj 399 351 about;
+#A saved 10.0054 0.5 0.25 0.75 0.5;
 #X text 339 351 see -->;
-#X obj 325 126 declare -path else;
-#X obj 370 268 plate.rev~;
-#X text 315 189 This is just a wrapper around [plate.rev~] from ELSE \, check it out., f 22;
+#X obj 339 104 declare -path else;
+#X obj 355 233 plate.rev~;
+#X text 277 187 This is just a wrapper around [plate.rev~] from ELSE \, check it out., f 29;
+#X obj 399 351 about.MERDA;
 #X connect 1 0 2 0;
 #X connect 2 0 0 0;
 #X connect 2 1 0 1;

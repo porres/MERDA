@@ -9,10 +9,10 @@
 #A saved 903.318 17.144 0 0;
 #X text 430 164 for now it's only based on, f 13;
 #X obj 444 216 lowpass~;
-#X obj 514 408 about;
 #X text 454 408 see -->;
 #X obj 428 90 declare -path else;
 #X text 397 289 The signal CV inlets for Cutoff and Reson depend on the attenuverter controls and add to the values set by the knobs., f 28;
+#X obj 514 408 about.MERDA;
 #X connect 2 0 3 0;
 #X connect 3 0 5 1;
 #X connect 4 0 5 0;
