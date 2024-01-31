@@ -1,4 +1,4 @@
-#N canvas 424 47 712 612 12;
+#N canvas 424 47 619 560 12;
 #X declare -path else;
 #X obj 99 467 out~;
 #X text 50 24 This Lowpass module takes a single channel input \, cutoff in Hz and Reson in Q., f 42;
@@ -7,12 +7,12 @@
 #X obj 76 129 bl.saw~ 55;
 #X obj 99 181 vcf.m~;
 #A saved 903.318 17.144 0 0;
-#X text 430 164 for now it's only based on, f 13;
-#X obj 444 216 lowpass~;
-#X text 454 408 see -->;
-#X obj 428 90 declare -path else;
-#X text 397 289 The signal CV inlets for Cutoff and Reson depend on the attenuverter controls and add to the values set by the knobs., f 28;
-#X obj 514 408 about.MERDA;
+#X text 387 176 for now it's only based on, f 13;
+#X obj 401 228 lowpass~;
+#X text 364 410 see -->;
+#X obj 385 102 declare -path else;
+#X text 354 301 The signal CV inlets for Cutoff and Reson depend on the attenuverter controls and add to the values set by the knobs., f 28;
+#X obj 424 410 about.MERDA;
 #X connect 2 0 3 0;
 #X connect 3 0 5 1;
 #X connect 4 0 5 0;
