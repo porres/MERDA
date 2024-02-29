@@ -1,14 +1,7 @@
 # M.E.R.D.A.
 (Modular EuroRacks Dancing Along)
 
-These Pd abstractions depend on the ELSE library by Porres (this is also by Porres).
-
-### Version: 0.1-alpha
-
-### Released February 7th 2024
-
-This release has been tested with and needs ELSE 1.0-0 rc11 (which needs Pd Vanilla 0.54-1)
-
+A submodule of ELSE by Porres (this is also by Porres).
 
 ## Modules list (20 objects):
 
